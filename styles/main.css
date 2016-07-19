@@ -1,0 +1,104 @@
+html {
+	font-size: 14px;
+}
+
+body {
+	background-color: #444; /* #444444 */
+	border: 5px solid #787878;
+
+	margin: 50px;
+
+	padding: 50px;
+
+	/*
+		Other ways to set margin
+		margin: X; // all 4 to X
+		margin-top: X; 
+		...
+		margin: x Y; // X top, bottom margin
+					 // Y left, right margin
+
+		margin: X Y Z;
+	*/
+} 
+
+.main-title {
+	color: #fff;
+	font-style: italic;
+	text-align: center;
+	font-size: 3rem;
+	font-family: Georgia, serif;
+	font-weight: 300;
+	margin-bottom: 0;
+}
+
+.top-nav {
+	border-bottom: 2px solid #787878;
+
+	padding: 25px 0;
+
+	text-align: center;
+}
+
+.menu-link {
+	font-weight: bold;
+	color: #33b688;
+	font-size: 1.5rem;
+	font-family: Arial, sans-serif;
+}
+
+.menu-active {
+	color: #fff;
+	text-decoration: none;
+	pointer-events: none;
+}
+
+.line-seperator{\
+	color: #787878;
+	margin: 0 10px;
+	font-size: 1.5rem;
+}
+
+img{
+	float: right;
+    margin: 0 0 20px 20px;
+    border: 2px solid #787878;
+    padding: 5px;
+}
+
+p{ 
+	font-family: Georgia,sans-serif;
+	font-size:16pt;
+}
+
+.bottom-nav{
+	color: #33b688;
+	border-top: 2px solid #787878;
+	padding: 25px 0;
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.5rem;
+	font-family: Arial, sans-serif;
+}
+
+.bottom-nav a{
+	color: #33b688 ;
+}
+
+.menu-seperator-character {
+	color: #787878;
+	margin: 0 10px;
+	font-size: 1.5rem;
+}
+
+p{
+	color: white;
+	font-family: Adobe Caslon Pro, sans-serif;
+}
+
+h1{ 
+color: white;
+font-family: Arial, sans-serif;
+font-size: 25px;
+}
+
